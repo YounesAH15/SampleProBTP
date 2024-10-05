@@ -1,0 +1,42 @@
+
+.chartBlock {
+    display: block;
+    margin: auto;
+    width: clamp(60vw, 24rem, 80vw);
+    height: auto;
+
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+    margin-top: 30px;
+    // border: 1px solid black;
+    .cta-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    p {
+        padding: auto;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    .types {
+        flex-wrap: wrap;
+        justify-content: center space-around;
+    }
+}
